@@ -12,7 +12,8 @@ setup(
         "langchain-google-genai",
         "openai",
         "anthropic",
-        "google-generativeai"
+        "google-generativeai",
+        "platformdirs"
     ],
     entry_points={"console_scripts": ["coding-agent=agent:main"]},
     python_requires=">=3.10",

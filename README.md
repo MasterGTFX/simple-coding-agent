@@ -25,7 +25,8 @@ You can also bypass this by setting an environment variable:
 set AGENT_MODEL=anthropic/claude-3-5-sonnet-20240620
 ```
 
-The selected model is saved in `.coding-agent/config.json` and reused on the next run.
+The selected model is saved in your user config directory and reused on the next run.
+Session history remains project-local in `.coding-agent/`.
 
 ## Usage
 
